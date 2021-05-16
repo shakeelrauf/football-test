@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team: MyString
+  P: 1
+  W: 1
+  L: 1
+  D: 1
+  F: 1
+  A: 1
+  Pts: 1
+
+two:
+  team: MyString
+  P: 1
+  W: 1
+  L: 1
+  D: 1
+  F: 1
+  A: 1
+  Pts: 1
