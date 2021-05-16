@@ -1,0 +1,32 @@
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Team</th>
+      <th scope="col">P</th>
+      <th scope="col">W</th>
+      <th scope="col">L</th>
+      <th scope="col">D</th>
+      <th scope="col">F</th>
+      <th scope="col">A</th>
+      <th scope="col">Pts</th>
+    </tr>
+  </thead>
+  <tbody>
+  	<% if @score_board %>
+      <tr>
+        <td><%= @score_board.team %></td>
+        <td><%= @score_board.P %></td>
+        <td><%= @score_board.W %></td>
+        <td><%= @score_board.L %></td>
+        <td><%= @score_board.D %></td>
+        <td><%= @score_board.F %></td>
+        <td><%= @score_board.A %></td>
+        <td><%= @score_board.Pts %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="d-flex justify-content-center align-items-center">
+	<p>Minimum Difference: <span><%= @score_board.diff_for_against %></span></p>
+</div>
